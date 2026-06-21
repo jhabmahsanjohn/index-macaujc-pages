@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>澳门六合彩 · 导航介绍</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fafaf8;
+      color: #2d2d2a;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      font-weight: 350;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* 顶部导航 */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px 0 14px;
+      border-bottom: 1px solid #e2e0da;
+    }
+
+    .site-title {
+      font-size: 1.1rem;
+      font-weight: 450;
+      letter-spacing: 0.5px;
+      color: #3f3e39;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      font-size: 0.92rem;
+    }
+
+    .nav-links a {
+      color: #66645c;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #1f1f1b;
+    }
+
+    /* hero 区 */
+    .hero {
+      margin: 56px 0 32px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 380;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      color: #2a2a26;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: #5b5a54;
+      max-width: 600px;
+    }
+
+    /* 核心介绍 */
+    .intro-block {
+      margin: 48px 0 40px;
+      padding: 32px 0;
+      border-top: 1px solid #eae8e2;
+      border-bottom: 1px solid #eae8e2;
+    }
+
+    .intro-block p {
+      font-size: 1rem;
+      margin-bottom: 18px;
+    }
+
+    .intro-block p:last-child {
+      margin-bottom: 0;
+    }
+
+    .keyword-link {
+      font-weight: 420;
+      color: #3f3e39;
+      text-decoration: none;
+      border-bottom: 1px solid #c8c4ba;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .keyword-link:hover {
+      color: #0f0f0b;
+      border-bottom-color: #0f0f0b;
+    }
+
+    /* 场景卡片三模块 */
+    .scenes {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      margin: 44px 0 48px;
+    }
+
+    .scene-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .scene-item h3 {
+      font-size: 1.1rem;
+      font-weight: 420;
+      margin-bottom: 8px;
+      color: #3b3a35;
+      letter-spacing: 0.2px;
+    }
+
+    .scene-item p {
+      font-size: 0.96rem;
+      color: #5f5e57;
+      line-height: 1.7;
+      max-width: 620px;
+    }
+
+    /* 常见说明 (FAQ 摘要) */
+    .faq-summary {
+      margin: 30px 0 50px;
+      padding-top: 28px;
+      border-top: 1px solid #eae8e2;
+    }
+
+    .faq-summary h2 {
+      font-size: 1.3rem;
+      font-weight: 380;
+      margin-bottom: 22px;
+      color: #2f2e2a;
+    }
+
+    .faq-item {
+      margin-bottom: 18px;
+    }
+
+    .faq-item strong {
+      font-weight: 440;
+      color: #3d3c37;
+      display: block;
+      margin-bottom: 4px;
+      font-size: 0.97rem;
+    }
+
+    .faq-item span {
+      font-size: 0.94rem;
+      color: #5f5e57;
+      display: block;
+    }
+
+    /* 底部提示 */
+    .footer-note {
+      padding: 24px 0 32px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #9b998f;
+      border-top: 1px solid #eae8e2;
+    }
+
+    /* 响应式 */
+    @media (max-width: 520px) {
+      .page {
+        padding: 0 20px;
+      }
+
+      .header {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .nav-links {
+        gap: 18px;
+        font-size: 0.88rem;
+      }
+
+      .hero h1 {
+        font-size: 1.7rem;
+      }
+
+      .hero p {
+        font-size: 0.96rem;
+      }
+
+      .intro-block p {
+        font-size: 0.95rem;
+      }
+
+      .scene-item p {
+        font-size: 0.92rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- 顶部导航 -->
+    <header class="header">
+      <div class="site-title">澳门六合彩 · 指引</div>
+      <div class="nav-links">
+        <a href="#">介绍</a>
+        <a href="#">场景</a>
+        <a href="#">说明</a>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <div class="hero">
+      <h1>快速识别<br>澳门六合彩用途</h1>
+      <p>简洁导航，帮助你在第一时间理解网站方向，无需在复杂信息中反复查找。</p>
+    </div>
+
+    <!-- 核心介绍 -->
+    <div class="intro-block">
+      <p>
+        如果你正在寻找一个清晰、直接的信息入口，那么 <a href="https://index-macaujc.com" class="keyword-link">澳门六合彩</a> 
+        可以帮你快速定位相关内容。整个页面围绕「轻量导航」展开，没有冗余的干扰，让每一次浏览都更有效率。
+      </p>
+      <p>
+        很多用户初次接触时，最大的困惑是「这个网站能做什么」。因此，我们以精简的三块场景模块作为主干，并辅以常见问题摘要，帮助你用最短的时间建立认知——这就是本页设计的初衷。
+      </p>
+    </div>
+
+    <!-- 三个场景模块 -->
+    <div class="scenes">
+      <div class="scene-item">
+        <h3>场景一 · 信息查阅</h3>
+        <p>当你需要快速了解澳门六合彩的基本规则、历史背景或相关动态时，可以直接通过导航进入对应版块。页面结构经过整理，重点内容优先呈现，减少滚动与跳转次数。</p>
+      </div>
+      <div class="scene-item">
+        <h3>场景二 · 横向比较</h3>
+        <p>部分用户希望通过一个页面同时对比不同玩法或数值区间。本页将核心差异点拆解为三组模块，你可以并行阅读，不必来回切换标签页，信息密度适中。</p>
+      </div>
+      <div class="scene-item">
+        <h3>场景三 · 快速确认</h3>
+        <p>如果你只是想确认某个细节（例如开奖频率、术语含义），FAQ 摘要区提供了最常见的提问与简洁回答。无需从头阅读，直接定位你的疑问。</p>
+      </div>
+    </div>
+
+    <!-- 常见说明摘要（FAQ） -->
+    <div class="faq-summary">
+      <h2>常见说明摘要</h2>
+      <div class="faq-item">
+        <strong>这个页面与澳门六合彩是什么关系？</strong>
+        <span>本页是 <a href="https://index-macaujc.com" class="keyword-link">澳门六合彩</a> 的轻量导航介绍页，旨在帮助新访客快速理解网站用途与内容结构，不替代主站功能。</span>
+      </div>
+      <div class="faq-item">
+        <strong>我需要注册或登录才能使用吗？</strong>
+        <span>不需要。当前页面为公开介绍内容，所有模块均可自由浏览，不涉及账户系统。主站具体功能请参考站内说明。</span>
+      </div>
+      <div class="faq-item">
+        <strong>信息是否保持更新？</strong>
+        <span>页面内容会随主站方向定期调整，但始终以清晰、克制的介绍为原则，不堆积过时或未经核实的细节。</span>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer-note">
+      轻量导航 · 简洁留白
+    </div>
+
+  </div>
+</body>
+</html>
